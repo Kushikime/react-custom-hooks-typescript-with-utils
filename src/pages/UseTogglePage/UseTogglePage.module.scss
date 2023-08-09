@@ -1,0 +1,22 @@
+.useTogglePage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .modal {
+    width: 100%;
+    padding: 20px 25px;
+    max-width: 768px;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    .header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    position: absolute;
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,25 @@
+.iconButton {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  outline: none;
+  border: 1px solid #e4e4e4;
+  div {
+    height: 16px;
+    width: 16px;
+    img {
+      height: 16px;
+      width: 16px;
+      object-fit: cover;
+    }
+  }
+  &:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+  }
+}

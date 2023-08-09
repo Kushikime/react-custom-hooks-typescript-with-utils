@@ -1,0 +1,15 @@
+.examplePageLayout {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  flex-direction: column;
+  .header {
+    min-height: 60px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+}
